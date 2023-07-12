@@ -1,0 +1,51 @@
+.text-center{
+text-align: right;
+}
+
+.container{
+    margin: auto;
+    margin-top:4%;
+    width: 360px;
+    border: 2px white solid;
+    border-radius: 5%;
+    padding: 10px 15px;
+    background-color: black;    
+}
+
+.button{
+    margin: 3px;
+    width: 80px;
+    height: 80px;
+    border-radius: 100%;
+    font-size: 40px;
+    background-color: white;
+    color: black;
+    font-family: 'Courier New', Courier, monospace;
+}
+.sign{
+    font: 30px 'Courier New', Courier, monospace;
+}
+.input
+{
+    background-color: black;
+    color: white;
+    font-size: 50px;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: right;
+    padding: 10px 20px;
+    border: 2px black solid;
+    border-radius: 50px;
+    width: 320px;
+    margin: auto;
+}
+input.input {
+    outline: none;
+}
+.zero
+{
+    border-radius: 50px;
+    width: 160px;
+}
+.operator{
+    background-color: orange;
+}
