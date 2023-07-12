@@ -9,23 +9,18 @@ document.addEventListener("DOMContentLoaded", function () {
   buttons.forEach(function (button) {
     button.addEventListener("click", function () {
       var buttonText = this.innerText;
-
-      // Handle button click based on the button text
       switch (buttonText) {
         case "AC":
           display.value = "";
           break;
         case "+/-":
-          // Negate the current value
           display.value = -display.value;
           break;
         case "%":
-          // Calculate percentage
           display.value = display.value / 100;
           break;
         case "=":
           try {
-            // Evaluate the expression and display the result
             display.value = eval(display.value);
           } catch (error) {
             display.value = "Error";
